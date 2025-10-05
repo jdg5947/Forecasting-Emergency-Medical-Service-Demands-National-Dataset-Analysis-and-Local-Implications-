@@ -65,9 +65,9 @@ edispatch_02_dict = {
 }
 
 # File paths
-file1 = r'D:\COMP 594\ASCII_64 2024\Pub_PCRevents.txt'
-file2 = r'D:\COMP 594\ASCII_64 2024\ComputedElements.txt'
-file3 = r'D:\COMP 594\ASCII_64 2024\FACTPCRTIME.txt'
+file1 = r''
+file2 = r''
+file3 = r''
 output_file = r''
 chunk_size = 1000000
 
@@ -256,4 +256,5 @@ print("\nTo load this data in future analyses, use:")
 print(f"df = pd.read_csv('{output_file}')")
 print("\nOr for large files, use chunking:")
 print(f"for chunk in pd.read_csv('{output_file}', chunksize=100000):")
+
 print("    # process chunk")

@@ -4,8 +4,8 @@ from collections import defaultdict
 import os
 
 # File paths
-input_file = r'D:\COMP 594\merged_ems_data.csv'
-output_dir = r'D:\COMP 594'
+input_file = r''
+output_dir = r''
 
 print("=" * 80)
 print("EMS DATA REGIONAL-URBANICITY BREAKDOWN ANALYSIS")
@@ -198,4 +198,5 @@ print("\nAll files are located in:", output_dir)
 print("\nTo load a specific regional file:")
 print("df = pd.read_csv(r'D:\\COMP 594\\{filename}')")
 print("\nTo load summary:")
+
 print(f"summary = pd.read_csv(r'{summary_file}')")
